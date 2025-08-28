@@ -1,0 +1,326 @@
+9959a_0 
+  readline           pkgs/main/linux-64::readline-8.3-hc2a1206_0 
+  setuptools         pkgs/main/linux-64::setuptools-78.1.1-py39h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.50.2-hb25bd0a_1 
+  tk                 pkgs/main/linux-64::tk-8.6.15-h54e0aa7_0 
+  tzdata             pkgs/main/noarch::tzdata-2025b-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.45.1-py39h06a4308_0 
+  xorg-libx11        pkgs/main/linux-64::xorg-libx11-1.8.12-h9b100fa_1 
+  xorg-libxau        pkgs/main/linux-64::xorg-libxau-1.0.12-h9b100fa_0 
+  xorg-libxdmcp      pkgs/main/linux-64::xorg-libxdmcp-1.1.5-h9b100fa_0 
+  xorg-xorgproto     pkgs/main/linux-64::xorg-xorgproto-2024.1-h5eee18b_1 
+  xz                 pkgs/main/linux-64::xz-5.6.4-h5eee18b_1 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+                                                                                         
+Preparing transaction: done                                                              
+Verifying transaction: done                                                              
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate funtools
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) @Undisputed-lab ➜ .../codespaces-blank/hackbio/project_1_2/biocomputing $ conda activate funtools
+(funtools) @Undisputed-lab ➜ .../codespaces-blank/hackbio/project_1_2/biocomputing $ conda install -c bioconda -c conda-forge samtools bedtools spades bcftools fastp multiqc
+2 channel Terms of Service accepted
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /home/codespace/miniconda3/envs/funtools
+
+  added / updated specs:
+    - bcftools
+    - bedtools
+    - fastp
+    - multiqc
+    - samtools
+    - spades
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    annotated-types-0.7.0      |     pyhd8ed1ab_1          18 KB  conda-forge
+    aom-3.6.0                  |       h6a678d5_0         2.8 MB
+    attrs-25.3.0               |     pyh71513ae_0          56 KB  conda-forge
+    bcftools-1.6               |                0         2.6 MB  bioconda
+    bedtools-2.27.1            |       h9a82719_5         702 KB  bioconda
+    brotli-python-1.0.9        |   py39h5a03fae_7         352 KB  conda-forge
+    c-ares-1.18.1              |       h7f98852_0         113 KB  conda-forge
+    ca-certificates-2025.8.3   |       hbd8a1cb_0         151 KB  conda-forge
+    cairo-1.18.4               |       h44eff21_0         728 KB
+    certifi-2025.8.3           |     pyhd8ed1ab_0         155 KB  conda-forge
+    cffi-1.15.0                |   py39h4bc2ebd_0         227 KB  conda-forge
+    charset-normalizer-3.4.3   |     pyhd8ed1ab_0          50 KB  conda-forge
+    click-8.1.8                |     pyh707e725_0          83 KB  conda-forge
+    colorama-0.4.6             |     pyhd8ed1ab_1          26 KB  conda-forge
+    coloredlogs-15.0.1         |     pyhd8ed1ab_4          43 KB  conda-forge
+    colormath-3.0.0            |     pyhd8ed1ab_4          38 KB  conda-forge
+    curl-7.79.1                |       h2574ce0_1         153 KB  conda-forge
+    dav1d-1.2.1                |       h5eee18b_0         823 KB
+    fastp-0.23.2               |       hb7a2d85_2         3.2 MB  bioconda
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_3         1.5 MB  conda-forge
+    fontconfig-2.14.1          |       h55d465d_3         281 KB
+    fonts-conda-forge-1        |                0           4 KB  conda-forge
+    freetype-2.13.3            |       h4a9f257_0         686 KB
+    fribidi-1.0.10             |       h36c2ea0_0         112 KB  conda-forge
+    graphite2-1.3.14           |       h295c915_1          97 KB
+    h2-4.2.0                   |     pyhd8ed1ab_0          53 KB  conda-forge
+    harfbuzz-10.2.0            |       hdfddeaa_1         2.3 MB
+    hpack-4.1.0                |     pyhd8ed1ab_0          30 KB  conda-forge
+    humanfriendly-10.0         |     pyh707e725_8          72 KB  conda-forge
+    humanize-4.12.3            |     pyhd8ed1ab_0          64 KB  conda-forge
+    hyperframe-6.1.0           |     pyhd8ed1ab_0          17 KB  conda-forge
+    idna-3.10                  |     pyhd8ed1ab_1          49 KB  conda-forge
+    importlib-metadata-8.7.0   |     pyhe01879c_1          34 KB  conda-forge
+    isa-l-2.30.0               |       ha770c72_4         192 KB  conda-forge
+    jinja2-3.1.6               |     pyhd8ed1ab_0         110 KB  conda-forge
+    jpeg-9e                    |       h166bdaf_1         268 KB  conda-forge
+    jsonschema-4.25.1          |     pyhe01879c_0          80 KB  conda-forge
+    jsonschema-specifications-2025.4.1|     pyh29332c3_0          19 KB  conda-forge
+    kaleido-core-0.2.1         |       h3644ca4_0        59.2 MB  conda-forge
+    kernel-headers_linux-64-3.10.0|      he073ed8_18         921 KB  conda-forge
+    keyutils-1.6.1             |       h166bdaf_0         115 KB  conda-forge
+    krb5-1.19.3                |       h3790be6_0         1.4 MB  conda-forge
+    lcms2-2.16                 |       h92b89f2_1         269 KB
+    lerc-4.0.0                 |       h6a678d5_0         261 KB
+    libavif-1.1.1              |       h5eee18b_0         144 KB
+    libblas-3.9.0              |31_h59b9bed_openblas          16 KB  conda-forge
+    libcblas-3.9.0             |31_he106b2a_openblas          16 KB  conda-forge
+    libcurl-7.79.1             |       h2574ce0_1         335 KB  conda-forge
+    libdeflate-1.22            |       h5eee18b_0          68 KB
+    libedit-3.1.20191231       |       he28a2e2_2         121 KB  conda-forge
+    libev-4.33                 |       h516909a_1         104 KB  conda-forge
+    libgcc-7.2.0               |       h69d50b8_2         304 KB  conda-forge
+    libgfortran-ng-13.2.0      |       h69a702a_0          23 KB  conda-forge
+    libgfortran5-13.2.0        |       ha4646dd_0         1.4 MB  conda-forge
+    libglib-2.84.2             |       h37c7471_0         1.7 MB
+    libiconv-1.17              |       h166bdaf_0         1.4 MB  conda-forge
+    liblapack-3.9.0            |31_h7ac8fdf_openblas          16 KB  conda-forge
+    libnghttp2-1.43.0          |       h812cca2_1         790 KB  conda-forge
+    libopenblas-0.3.29         |       ha39b09d_0         6.5 MB
+    libpng-1.6.39              |       h5eee18b_0         304 KB
+    libssh2-1.10.0             |       ha56f1ee_2         233 KB  conda-forge
+    libtiff-4.7.0              |       hde9077f_0         447 KB
+    libwebp-base-1.3.2         |       h5eee18b_1         425 KB
+    llvm-openmp-8.0.1          |       hc9558a2_0         439 KB  conda-forge
+    markdown-3.8.2             |     pyhd8ed1ab_0          78 KB  conda-forge
+    markdown-it-py-3.0.0       |     pyhd8ed1ab_1          63 KB  conda-forge
+    markupsafe-2.1.1           |   py39hb9d737c_1          22 KB  conda-forge
+    mathjax-2.7.7              |       ha770c72_3        21.2 MB  conda-forge
+    mdurl-0.1.2                |     pyhd8ed1ab_1          14 KB  conda-forge
+    multiqc-1.28               |     pyhdfd78af_0         3.7 MB  bioconda
+    narwhals-2.1.2             |     pyhe01879c_0         237 KB  conda-forge
+    natsort-8.4.0              |     pyh29332c3_1          38 KB  conda-forge
+    networkx-3.2.1             |     pyhd8ed1ab_0         1.1 MB  conda-forge
+    nspr-4.32                  |       h9c3ff4c_1         233 KB  conda-forge
+    nss-3.69                   |       hb5efdd6_1         2.1 MB  conda-forge
+    numpy-1.22.3               |   py39hc58783e_2         6.8 MB  conda-forge
+    openjpeg-2.5.2             |       h0d4d230_1         373 KB
+    openmp-8.0.1               |                0           8 KB  conda-forge
+    openssl-1.1.1o             |       h166bdaf_0         2.1 MB  conda-forge
+    packaging-25.0             |     pyh29332c3_1          61 KB  conda-forge
+    pillow-11.3.0              |   py39hb1c3d2d_0         826 KB
+    pixman-0.46.4              |       h7934f7d_0         1.9 MB
+    plotly-6.3.0               |     pyhd8ed1ab_0         4.7 MB  conda-forge
+    pyaml-env-1.2.2            |     pyhd8ed1ab_0          14 KB  conda-forge
+    pycparser-2.22             |     pyh29332c3_1         108 KB  conda-forge
+    pydantic-2.11.7            |     pyh3cfb1c2_0         300 KB  conda-forge
+    pydantic-core-2.33.2       |   py39hc6f7160_0         1.8 MB
+    pygments-2.19.2            |     pyhd8ed1ab_0         868 KB  conda-forge
+    pysocks-1.7.1              |     pyha55dd90_7          21 KB  conda-forge
+    python-3.9.7               |hb7a2778_3_cpython        27.5 MB  conda-forge
+    python-dotenv-1.1.1        |     pyhe01879c_0          25 KB  conda-forge
+    python-kaleido-0.2.1       |     pyhd8ed1ab_0          18 KB  conda-forge
+    python_abi-3.9             |           8_cp39           7 KB  conda-forge
+    pyyaml-6.0                 |   py39hb9d737c_4         178 KB  conda-forge
+    referencing-0.36.2         |     pyh29332c3_0          50 KB  conda-forge
+    regex-2022.4.24            |   py39hb9d737c_0         381 KB  conda-forge
+    requests-2.32.5            |     pyhd8ed1ab_0          58 KB  conda-forge
+    rich-14.1.0                |     pyhe01879c_0         196 KB  conda-forge
+    rich-click-1.8.9           |     pyhd8ed1ab_0          34 KB  conda-forge
+    rpds-py-0.22.3             |   py39h4aa5aa6_0         369 KB
+    samtools-1.5               |                1         955 KB  bioconda
+    spades-3.15.3              |       h95f258a_0        48.0 MB  bioconda
+    spectra-0.0.11             |     pyhd8ed1ab_2          22 KB  conda-forge
+    sysroot_linux-64-2.17      |      h0157908_18        14.5 MB  conda-forge
+    tiktoken-0.9.0             |   py39h52b74c6_0         1.0 MB
+    tqdm-4.67.1                |     pyhd8ed1ab_1          87 KB  conda-forge
+    typeguard-4.4.4            |     pyhd8ed1ab_0          34 KB  conda-forge
+    typing-extensions-4.14.1   |       h4440ef1_0          88 KB  conda-forge
+    typing-inspection-0.4.1    |     pyhd8ed1ab_0          18 KB  conda-forge
+    typing_extensions-4.14.1   |     pyhe01879c_0          50 KB  conda-forge
+    urllib3-2.5.0              |     pyhd8ed1ab_0          99 KB  conda-forge
+    xorg-libxext-1.3.6         |       h9b100fa_0          49 KB
+    xorg-libxrender-0.9.12     |       h9b100fa_0          31 KB
+    yaml-0.2.5                 |       h7f98852_2          87 KB  conda-forge
+    zipp-3.23.0                |     pyhd8ed1ab_0          22 KB  conda-forge
+    zstandard-0.23.0           |   py39h2c38b39_1         431 KB
+    ------------------------------------------------------------
+                                           Total:       238.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  annotated-types    conda-forge/noarch::annotated-types-0.7.0-pyhd8ed1ab_1 
+  aom                pkgs/main/linux-64::aom-3.6.0-h6a678d5_0 
+  attrs              conda-forge/noarch::attrs-25.3.0-pyh71513ae_0 
+  bcftools           bioconda/linux-64::bcftools-1.6-0 
+  bedtools           bioconda/linux-64::bedtools-2.27.1-h9a82719_5 
+  brotli-python      conda-forge/linux-64::brotli-python-1.0.9-py39h5a03fae_7 
+  c-ares             conda-forge/linux-64::c-ares-1.18.1-h7f98852_0 
+  cairo              pkgs/main/linux-64::cairo-1.18.4-h44eff21_0 
+  certifi            conda-forge/noarch::certifi-2025.8.3-pyhd8ed1ab_0 
+  cffi               conda-forge/linux-64::cffi-1.15.0-py39h4bc2ebd_0 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.3-pyhd8ed1ab_0 
+  click              conda-forge/noarch::click-8.1.8-pyh707e725_0 
+  colorama           conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_1 
+  coloredlogs        conda-forge/noarch::coloredlogs-15.0.1-pyhd8ed1ab_4 
+  colormath          conda-forge/noarch::colormath-3.0.0-pyhd8ed1ab_4 
+  curl               conda-forge/linux-64::curl-7.79.1-h2574ce0_1 
+  dav1d              pkgs/main/linux-64::dav1d-1.2.1-h5eee18b_0 
+  fastp              bioconda/linux-64::fastp-0.23.2-hb7a2d85_2 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3 
+  fontconfig         pkgs/main/linux-64::fontconfig-2.14.1-h55d465d_3 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0 
+  freetype           pkgs/main/linux-64::freetype-2.13.3-h4a9f257_0 
+  fribidi            conda-forge/linux-64::fribidi-1.0.10-h36c2ea0_0 
+  graphite2          pkgs/main/linux-64::graphite2-1.3.14-h295c915_1 
+  h2                 conda-forge/noarch::h2-4.2.0-pyhd8ed1ab_0 
+  harfbuzz           pkgs/main/linux-64::harfbuzz-10.2.0-hdfddeaa_1 
+  hpack              conda-forge/noarch::hpack-4.1.0-pyhd8ed1ab_0 
+  humanfriendly      conda-forge/noarch::humanfriendly-10.0-pyh707e725_8 
+  humanize           conda-forge/noarch::humanize-4.12.3-pyhd8ed1ab_0 
+  hyperframe         conda-forge/noarch::hyperframe-6.1.0-pyhd8ed1ab_0 
+  icu                pkgs/main/linux-64::icu-73.1-h6a678d5_0 
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_1 
+  importlib-metadata conda-forge/noarch::importlib-metadata-8.7.0-pyhe01879c_1 
+  isa-l              conda-forge/linux-64::isa-l-2.30.0-ha770c72_4 
+  jinja2             conda-forge/noarch::jinja2-3.1.6-pyhd8ed1ab_0 
+  jpeg               conda-forge/linux-64::jpeg-9e-h166bdaf_1 
+  jsonschema         conda-forge/noarch::jsonschema-4.25.1-pyhe01879c_0 
+  jsonschema-specif~ conda-forge/noarch::jsonschema-specifications-2025.4.1-pyh29332c3_0 
+  kaleido-core       conda-forge/linux-64::kaleido-core-0.2.1-h3644ca4_0 
+  kernel-headers_li~ conda-forge/noarch::kernel-headers_linux-64-3.10.0-he073ed8_18 
+  keyutils           conda-forge/linux-64::keyutils-1.6.1-h166bdaf_0 
+  krb5               conda-forge/linux-64::krb5-1.19.3-h3790be6_0 
+  lcms2              pkgs/main/linux-64::lcms2-2.16-h92b89f2_1 
+  lerc               pkgs/main/linux-64::lerc-4.0.0-h6a678d5_0 
+  libavif            pkgs/main/linux-64::libavif-1.1.1-h5eee18b_0 
+  libblas            conda-forge/linux-64::libblas-3.9.0-31_h59b9bed_openblas 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-31_he106b2a_openblas 
+  libcurl            conda-forge/linux-64::libcurl-7.79.1-h2574ce0_1 
+  libdeflate         pkgs/main/linux-64::libdeflate-1.22-h5eee18b_0 
+  libedit            conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2 
+  libev              conda-forge/linux-64::libev-4.33-h516909a_1 
+  libgcc             conda-forge/linux-64::libgcc-7.2.0-h69d50b8_2 
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-13.2.0-h69a702a_0 
+  libgfortran5       conda-forge/linux-64::libgfortran5-13.2.0-ha4646dd_0 
+  libglib            pkgs/main/linux-64::libglib-2.84.2-h37c7471_0 
+  libiconv           conda-forge/linux-64::libiconv-1.17-h166bdaf_0 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-31_h7ac8fdf_openblas 
+  libnghttp2         conda-forge/linux-64::libnghttp2-1.43.0-h812cca2_1 
+  libopenblas        pkgs/main/linux-64::libopenblas-0.3.29-ha39b09d_0 
+  libpng             pkgs/main/linux-64::libpng-1.6.39-h5eee18b_0 
+  libssh2            conda-forge/linux-64::libssh2-1.10.0-ha56f1ee_2 
+  libtiff            pkgs/main/linux-64::libtiff-4.7.0-hde9077f_0 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  libwebp-base       pkgs/main/linux-64::libwebp-base-1.3.2-h5eee18b_1 
+  libxml2            pkgs/main/linux-64::libxml2-2.13.8-hfdd30dd_0 
+  llvm-openmp        conda-forge/linux-64::llvm-openmp-8.0.1-hc9558a2_0 
+  lz4-c              pkgs/main/linux-64::lz4-c-1.9.4-h6a678d5_1 
+  markdown           conda-forge/noarch::markdown-3.8.2-pyhd8ed1ab_0 
+  markdown-it-py     conda-forge/noarch::markdown-it-py-3.0.0-pyhd8ed1ab_1 
+  markupsafe         conda-forge/linux-64::markupsafe-2.1.1-py39hb9d737c_1 
+  mathjax            conda-forge/linux-64::mathjax-2.7.7-ha770c72_3 
+  mdurl              conda-forge/noarch::mdurl-0.1.2-pyhd8ed1ab_1 
+  multiqc            bioconda/noarch::multiqc-1.28-pyhdfd78af_0 
+  narwhals           conda-forge/noarch::narwhals-2.1.2-pyhe01879c_0 
+  natsort            conda-forge/noarch::natsort-8.4.0-pyh29332c3_1 
+  networkx           conda-forge/noarch::networkx-3.2.1-pyhd8ed1ab_0 
+  nspr               conda-forge/linux-64::nspr-4.32-h9c3ff4c_1 
+  nss                conda-forge/linux-64::nss-3.69-hb5efdd6_1 
+  numpy              conda-forge/linux-64::numpy-1.22.3-py39hc58783e_2 
+  openjpeg           pkgs/main/linux-64::openjpeg-2.5.2-h0d4d230_1 
+  openmp             conda-forge/linux-64::openmp-8.0.1-0 
+  packaging          conda-forge/noarch::packaging-25.0-pyh29332c3_1 
+  pcre2              pkgs/main/linux-64::pcre2-10.42-hebb0a14_1 
+  pillow             pkgs/main/linux-64::pillow-11.3.0-py39hb1c3d2d_0 
+  pixman             pkgs/main/linux-64::pixman-0.46.4-h7934f7d_0 
+  plotly             conda-forge/noarch::plotly-6.3.0-pyhd8ed1ab_0 
+  pyaml-env          conda-forge/noarch::pyaml-env-1.2.2-pyhd8ed1ab_0 
+  pycparser          conda-forge/noarch::pycparser-2.22-pyh29332c3_1 
+  pydantic           conda-forge/noarch::pydantic-2.11.7-pyh3cfb1c2_0 
+  pydantic-core      pkgs/main/linux-64::pydantic-core-2.33.2-py39hc6f7160_0 
+  pygments           conda-forge/noarch::pygments-2.19.2-pyhd8ed1ab_0 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyha55dd90_7 
+  python-dotenv      conda-forge/noarch::python-dotenv-1.1.1-pyhe01879c_0 
+  python-kaleido     conda-forge/noarch::python-kaleido-0.2.1-pyhd8ed1ab_0 
+  python_abi         conda-forge/noarch::python_abi-3.9-8_cp39 
+  pyyaml             conda-forge/linux-64::pyyaml-6.0-py39hb9d737c_4 
+  referencing        conda-forge/noarch::referencing-0.36.2-pyh29332c3_0 
+  regex              conda-forge/linux-64::regex-2022.4.24-py39hb9d737c_0 
+  requests           conda-forge/noarch::requests-2.32.5-pyhd8ed1ab_0 
+  rich               conda-forge/noarch::rich-14.1.0-pyhe01879c_0 
+  rich-click         conda-forge/noarch::rich-click-1.8.9-pyhd8ed1ab_0 
+  rpds-py            pkgs/main/linux-64::rpds-py-0.22.3-py39h4aa5aa6_0 
+  samtools           bioconda/linux-64::samtools-1.5-1 
+  spades             bioconda/linux-64::spades-3.15.3-h95f258a_0 
+  spectra            conda-forge/noarch::spectra-0.0.11-pyhd8ed1ab_2 
+  sysroot_linux-64   conda-forge/noarch::sysroot_linux-64-2.17-h0157908_18 
+  tiktoken           pkgs/main/linux-64::tiktoken-0.9.0-py39h52b74c6_0 
+  tqdm               conda-forge/noarch::tqdm-4.67.1-pyhd8ed1ab_1 
+  typeguard          conda-forge/noarch::typeguard-4.4.4-pyhd8ed1ab_0 
+  typing-extensions  conda-forge/noarch::typing-extensions-4.14.1-h4440ef1_0 
+  typing-inspection  conda-forge/noarch::typing-inspection-0.4.1-pyhd8ed1ab_0 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.14.1-pyhe01879c_0 
+  urllib3            conda-forge/noarch::urllib3-2.5.0-pyhd8ed1ab_0 
+  xorg-libxext       pkgs/main/linux-64::xorg-libxext-1.3.6-h9b100fa_0 
+  xorg-libxrender    pkgs/main/linux-64::xorg-libxrender-0.9.12-h9b100fa_0 
+  yaml               conda-forge/linux-64::yaml-0.2.5-h7f98852_2 
+  zipp               conda-forge/noarch::zipp-3.23.0-pyhd8ed1ab_0 
+  zstandard          pkgs/main/linux-64::zstandard-0.23.0-py39h2c38b39_1 
+  zstd               pkgs/main/linux-64::zstd-1.5.6-hc292b87_0 
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2~ --> conda-forge/noarch::ca-certificates-2025.8.3-hbd8a1cb_0 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  openssl              pkgs/main::openssl-3.0.17-h5eee18b_0 --> conda-forge::openssl-1.1.1o-h166bdaf_0 
+  python                pkgs/main::python-3.9.23-he99959a_0 --> conda-forge::python-3.9.7-hb7a2778_3_cpython 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+                                                                                         
+Preparing transaction: done                                                              
+Verifying transaction: done                                                              
+Executing transaction: done                                                              
+(funtools) @Undisputed-lab ➜ .../codespaces-blank/hackbio/project_1_2/biocomputing $ 
